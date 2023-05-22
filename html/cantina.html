@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Inicial</title>
+    <link rel="stylesheet" href="../css/HeaderFooter.css">
+    <link rel="stylesheet" href="../css/cantina.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <figure class="logo-img-container">
+                <img src="../img/SenaiLogo.png" alt="SenaiLogo" class="logo-img">
+            </figure>
+
+            <div class="ham-btn">
+                <span class="ham-btn-bar"></span>
+                <span class="ham-btn-bar"></span>
+                <span class="ham-btn-bar"></span>
+            </div>
+        </div>
+
+        <nav>
+            <ul class="nav-content">
+                <li>
+                    <a class="" href="../index.html">HOME</a>
+                </li>
+                <li>
+                    <a class="" href="secretaria.html">SECRETARIA</a>
+                </li>
+                <li>
+                    <a class="" href="diarioEscolar.html">DIÁRIO ESCOLAR</a>
+                </li>
+                <li>
+                    <a class="" href="biblioteca.html">BIBLIOTECA</a>
+                </li>
+                <li>
+                    <a class="active" href="cantina.html">CANTINA</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="mainContainer">
+            <aside>
+                <div class="title">
+                    <h2>Horários de venda de lanches:</h2>
+                </div>
+
+                <ul class="horarios"></ul>
+            </aside>
+
+            <article>
+                <section class="almoco">
+                    <div class="title">
+                        <h2>ALMOÇO</h2>
+                    </div>
+
+                    <div class="conteudoContainer">
+                        <div class="comida">
+                            <h2>Comida</h2>
+                            <span></span>
+                        </div>
+
+                        <div class="sobremesa">
+                            <h2>Sobremesa</h2>
+                            <span></span>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="salgados">
+                    <div class="title">
+                        <h2>SALGADOS</h2>
+                    </div>
+
+                    <div class="listaContainer">
+                        <ul class="listaSalgados"></ul>
+                    </div>
+                </section>
+
+                <section class="bebidas">
+                    <div class="title">
+                        <h2>BEBIDAS</h2>
+                    </div>
+
+                    <div class="listaContainer">
+                        <ul class="listaBebidas"></ul>
+                    </div>
+                </section>
+            </article>
+        </div>
+
+    </main>
+
+    <footer>
+        <span>SENAI | LUIZ VARGA</span>
+    </footer>
+</body>
+
+<script src="../js/cantina.js"></script>
+<script src="../js/crud.js"></script>
+
+</html>

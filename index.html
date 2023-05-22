@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Inicial</title>
+    <link rel="stylesheet" href="css/HeaderFooter.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <figure class="logo-img-container">
+                <img src="img/SenaiLogo.png" alt="SenaiLogo" class="logo-img">
+            </figure>
+
+            <div class="ham-btn">
+                <span class="ham-btn-bar"></span>
+                <span class="ham-btn-bar"></span>
+                <span class="ham-btn-bar"></span>
+            </div>
+        </div>
+
+        <nav>
+            <ul class="nav-content">
+                <li>
+                    <a class="active" href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a class="block" href="html/secretaria.html">SECRETARIA</a>
+                </li>
+                <li>
+                    <a class="block" href="html/diarioEscolar.html">DIÁRIO ESCOLAR</a>
+                </li>
+                <li>
+                    <a class="block" href="html/biblioteca.html">BIBLIOTECA</a>
+                </li>
+                <li>
+                    <a class="block" href="html/cantina.html">CANTINA</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <section>
+                <form class="formLogin" action="" method="POST">
+                    <fieldset class="userCamp">
+                        <span class="avisoE">Insira um usuário válido (x@x)</span>
+                        <label for="user">Usuário:</label>
+                        <input type="text" name="user" id="user">
+                    </fieldset>
+
+                    <fieldset class="passwordCamp">
+                        <span class="avisoS">Insira uma senha válida (mínimo 6 caracteres)</span>
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password">
+                    </fieldset>
+    
+                    <input class="logar" type="submit" value="OK">
+                    <input type="reset" value="Cancelar">
+                </form>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <span>SENAI | LUIZ VARGA</span>
+    </footer>
+</body>
+
+<script src="js/index.js"></script>
+<script src="js/crud.js"></script>
+
+</html>

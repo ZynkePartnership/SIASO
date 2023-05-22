@@ -1,0 +1,66 @@
+/*-----==Main==-----*/
+.mainContainer{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*-----==Article==-----*/
+article{
+    width: 45%;
+    background-color: white;
+    align-self: flex-start;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: solid 1px black;
+}
+
+.cabecalho{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 5px gray;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.lista{
+    display: none;
+}
+.lista.show{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.lista li{
+    height: 2em;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*-----==Aside==-----*/
+aside{
+    height: 100%;
+    width: 45%;
+    background-color: white;
+    border: solid 1px black;
+}
+#regras{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

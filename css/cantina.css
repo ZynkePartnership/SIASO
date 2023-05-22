@@ -1,0 +1,133 @@
+/*-----==MAIN==-----*/
+.mainContainer{
+    height: 90%;
+    width: 96%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+/*-----==ASIDE==-----*/
+aside{
+    height: 99%;
+    width: 24%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 105, 105);
+}
+
+.horarios{
+    width: 90%;
+    height: 80%;
+    font-size: 30px;
+    list-style: none;
+    background-color: rgb(255, 166, 166);
+}
+
+/*-----==ARTICLE==-----*/
+article{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/*Section Almoço*/
+.almoco{
+    width: 99%;
+    height: 59%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(255, 105, 105);
+}
+
+.title{
+    height: 10%;
+    width: 98%;
+}
+
+.conteudoContainer{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.comida{
+    height: 100%;
+    width: 69%;
+}
+.sobremesa{
+    height: 100%;
+    width: 29%;
+}
+.comida,
+.sobremesa{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-color: rgb(255, 166, 166);
+}
+.comida h2,
+.sobremesa h2{
+    width: 90%;
+    height: 10%;
+    text-align: center;
+}
+.comida span,
+.sobremesa span{
+    width: 90%;
+    height: 90%;
+}
+
+/*Section Salgados; Bebidas*/
+.salgados, .bebidas{
+    width: 49%;
+    height: 39%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(255, 105, 105);
+}
+
+.title{
+    height: 15%;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.listaContainer{
+    height: 80%;
+    width: 90%;
+}
+.listaSalgados,
+.listaBebidas{
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.listaSalgados li,
+.listaBebidas li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.salgadoEscolhido,
+.bebidaEscolhida{
+    font-size: 24px;
+}
