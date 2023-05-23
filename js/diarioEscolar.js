@@ -1,39 +1,25 @@
-const linkGen = document.querySelectorAll(".link");
+// Obter todos os links
+const linkGen = document.querySelectorAll('.link');
 
-const telaSecretaria = document.getElementById("secretaria");
-const secretariaLink = document.querySelector(".secretariaLink");
+// Adicionar evento de clique a cada link
+linkGen.forEach(link => {
+    link.addEventListener('click', function(event) {
+        // Impedir o comportamento padrão do link
+        event.preventDefault();
 
-const telaNotas = document.getElementById("notas");
-const notasLink = document.querySelector(".notasLink");
+        // Obter o id do link
+        const telaEscolhida = link.getAttribute('href');
 
-const telaPresenca = document.getElementById("presenca");
-const presencaLink = document.querySelector(".presencaLink");
+        // Remover a classe "show" de todos os elementos section
+        const sections = document.querySelectorAll('section');
+        sections.forEach(section => {
+            section.classList.remove('show');
+        });
 
-const telaContato = document.getElementById("contato");
-const contatoLink = document.querySelector(".contatoLink");
-
-//-----==Eventos==-----//
-//Voltar pra Secretaria
-secretariaLink.addEventListener("click", function () {
-    telaNotas.style.display = "none";
-    telaPresenca.style.display = "none";
-    telaContato.style.display = "none";
-})
-//Abrir Notas
-notasLink.addEventListener("click", function () {
-    telaNotas.style.display = "block";
-    telaPresenca.style.display = "none";
-    telaContato.style.display = "none";
-})
-//Abrir Presença
-presencaLink.addEventListener("click", function () {
-    telaNotas.style.display = "none"
-    telaPresenca.style.display = "block";
-    telaContato.style.display = "none";
-})
-//Abrir Contato
-contatoLink.addEventListener("click", function () {
-    telaNotas.style.display = "none"
-    telaPresenca.style.display = "none";
-    telaContato.style.display = "block";
-})
+        // Adicionar a classe "show" ao elemento section correspondente ao id do link
+        const targetSection = document.querySelector(telaEscolhida);
+        if (targetSection) {
+            targetSection.classList.add('show');
+        }
+    });
+});
