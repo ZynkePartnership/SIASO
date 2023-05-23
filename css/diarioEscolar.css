@@ -47,11 +47,18 @@ article {
 
 .container-tb{
     width: 95%;
+    height: 95%;
     overflow: auto;
+}
+
+table{
+    width: 100%;
+    height: 100%;
 }
 
 /*Tela Notas*/
 th,
 td {
     border: solid 1px black;
+    text-align: center;
 }
