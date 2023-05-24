@@ -3,6 +3,7 @@
     height: 90%;
     width: 96%;
     background-color: white;
+    border:solid 2px #dbdbdb;
     display: flex;
     align-items: center;
     justify-content:space-evenly;
@@ -16,7 +17,8 @@ aside{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(255, 105, 105);
+    background-color: rgb(255, 255, 255);
+    border:solid 0.2px #dbdbdb;
 }
 
 .horarios{
@@ -24,7 +26,7 @@ aside{
     height: 80%;
     font-size: 30px;
     list-style: none;
-    background-color: rgb(255, 166, 166);
+    background-color: rgb(255, 255, 255);
 }
 
 /*-----==ARTICLE==-----*/
@@ -45,7 +47,8 @@ article{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: rgb(255, 105, 105);
+    background-color: rgb(255, 255, 255);
+    border:solid 0.2px #dbdbdb;
 }
 
 .title{
@@ -75,7 +78,7 @@ article{
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
-    background-color: rgb(255, 166, 166);
+    background-color: rgb(255, 255, 255);
 }
 .comida h2,
 .sobremesa h2{
@@ -87,6 +90,8 @@ article{
 .sobremesa span{
     width: 90%;
     height: 90%;
+    display: flex;
+    justify-content: center;
 }
 
 /*Section Salgados; Bebidas*/
@@ -97,7 +102,8 @@ article{
     align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: rgb(255, 105, 105);
+    background-color: rgb(255, 255, 255);
+    border:solid 0.2px #dbdbdb;
 }
 
 .title{
