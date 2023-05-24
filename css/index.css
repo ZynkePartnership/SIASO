@@ -1,7 +1,45 @@
 article{
+    height: 60%;
+    width: 30%;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+fieldset{
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.submitCamp{
+    height: 20%;
+    width: 50%;
+    display: flex;
+    
+    justify-content:flex-end;
 }
 
 .avisoE, .avisoS{
@@ -9,7 +47,21 @@ article{
     background-color: red;
 }
 
-fieldset{
-    width: 30em;
-    text-align: center;
+.campoContainer{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+label{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+}
+input[type=text],
+input[type=password]{
+    height: 25%;
+    width: 70%;
 }
