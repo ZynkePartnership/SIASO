@@ -37,4 +37,4 @@
 <h2> Descrição </h2>
 <p> Web Aplicação desenvolvida em HTML5, CSS3 e JavaScript, contendo 5 páginas, cada uma com um tipo de funcionalidade que tende a ser única. <p>
 <h3> 🎯 Motivo </h3>
-<p> Site feito para atender as necessidades de uma atividade, na qual aplicamos funcionalidades ao site para que pudesse haver ao menos uma mínima interação do usuário para com a Web Aplicação </p>
+<p> Site feito para atender as necessidades de uma atividade, na qual aplicamos funcionalidades JavaScript ao site para que pudesse haver ao menos uma mínima interação do usuário para com a Web Aplicação </p>
