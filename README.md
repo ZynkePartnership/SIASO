@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Banner" title="banner" style="object-fit: cover; height: 250px;" src="img/readmeBanner.png" />
+  <img alt="Banner" title="banner" style="object-fit: cover; height: 250px;" src="readMeContent/readmeBanner.png" />
 </h1>
 
 <h1 align="center"> 🏗️ SIASO 🏗️ </h1>
