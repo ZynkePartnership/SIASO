@@ -22,6 +22,7 @@ form{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    border:solid 0.2px #dbdbdb;
 }
 
 fieldset{
@@ -58,7 +59,7 @@ fieldset{
 label{
     width: 70%;
     display: flex;
-    justify-content: flex-start;
+    float: left;
 }
 input[type=text],
 input[type=password]{

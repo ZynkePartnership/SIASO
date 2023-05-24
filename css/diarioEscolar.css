@@ -6,6 +6,7 @@ article {
     width: 90%;
     height: 85%;
     background-color: white;
+    border:solid 0.2px #dbdbdb;
 }
 
 #notas,
