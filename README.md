@@ -31,30 +31,30 @@
   <a href="#licença"> Licença </a>    
 </p>
 
---
+
 
 <h2 id="nome-do-projeto"> Nome do Projeto </h2>
 <h3> SIASO - Situação de Aprendizagem Sistemas Operacionais </h3>
 
---
+
 
 <h2 id="#descricao"> Descrição </h2>
 <p> Web Aplicação desenvolvida em HTML5, CSS3 e JavaScript, contendo 5 páginas, cada uma com um tipo de funcionalidade que tende a ser única. <p>
 <h3> 🎯 Motivo </h3>
 <p> Na Instituição Senai Luiz Varga, localizada em Limeira, o professor Eduardo Costa solicitou a realização de uma aplicação que atendesse os requisitos passados por ele. Nós, a equipe Ultron, nos responsabilizamos por realizar portanto uma aplicação web sem, a princípio, conexão com banco de dados, utilizando apenas os conhecimentos obtidos pela educação dada a nós pela instituição. </p>
 
---
+
 
 <h2 id="badges"> Badges </h2>
 
---
+
 
 <h2 id="#visuais-e-telas"> Visuais e Telas </h2>
 <p> Tela Biblioteca: </p>
 <img alt="Tela Bilioteca" title="TelaBiblioteca1" style="object-fit: cover; height: 250px;" src="readMeContent/TelaBiblioteca1.png" align="center"/>
 <h3> GIF's </h3>
 
---
+
 
 <h2 id="tecnologias"> Tecnologias </h2>
 <table>
@@ -69,17 +69,17 @@
     <tr>
       <td> 18/05 </td>
       <td> Estruturação básica </td>
-      <td></td>
+      <td> <img/> </td>
     </tr>
     <tr>
       <td> 19/05 </td>
       <td> Funcionalidades JavaScript </td>
-      <td></td>
+      <td> <img/> </td>
     </tr>
     <tr>
       <td> 25/05 </td>
       <td> Estilização básica </td>
-      <td></td>
+      <td> <img/> </td>
     </tr>
   </tbody>
 </table>
@@ -130,16 +130,61 @@
   </li>
 </ul>
 
---
+
 
 <h2 id="uso"> Uso </h2>
 <p> Acesse a <a href="">documentação</a> para informações mais detalhadas quanto para com a Web Aplicação </p>
 
---
+
 
 <h2 id="status-do-projeto"> Status do Projeto </h2>
 <p align="center">
-  <img src="https://img.shields.io/badge/-DESENVOLVIMENTO-yellow?style=for-the-badge" align="center" alt="Projeto em Desenvolvimento"/>
+  <img src="https://img.shields.io/badge/Project-DOING-yellow?style=for-the-badge" align="center" alt="Projeto em Desenvolvimento"/>
 </p>
 <p> Projeto está em Desenvolvimento </p>
 <p> O seguimento do projeto se dará pela resposa a ser obtida dia 25/05 </p>
+
+
+
+<h2 id="#issues"> Issues </h2>
+<p> Formas de Contato </p>
+<ul>
+  <li>
+    Email:
+    <ul>
+      <li> [LoriaLawrenceZ] Lorenzo O. Zimbres: lorenzozimbresfilmmaker@gmail.com</li>
+      <li> [GPaiva] Gabriel Paiva: ___@___ </li>
+      <li> [TheuZCoder] Matheus R. Silva: matheusrdsilva1@gmail.com </li>
+    </ul>
+  </li>
+  
+  <li>
+    Discord:
+    <ul>
+      <li> Server: ____ </li>
+    </ul>
+  </li>
+</ul>
+<p> Sinta-se livre para entrar em contato com a nossa equipe.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
