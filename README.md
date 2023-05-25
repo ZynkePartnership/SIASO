@@ -147,8 +147,8 @@
 --
 
 <h2 id="#issues"> Issues </h2>
+<p> Formas de Contato </p>
 <ul>
-  <li> Formas de Contato </li>
   <li>
     Email:
     <ul>
