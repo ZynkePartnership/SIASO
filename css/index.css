@@ -22,7 +22,9 @@ form{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    border:solid 0.2px #dbdbdb;
+    border:solid 0.2px rgb(184, 184, 184);
+    border-radius: 1em;
+    box-shadow: 5px 5px 30px rgb(104, 104, 104);
 }
 
 fieldset{
@@ -37,15 +39,17 @@ fieldset{
 }
 .submitCamp{
     height: 20%;
-    width: 50%;
+    width: 60%;
     display: flex;
-    
     justify-content:flex-end;
 }
 
 .avisoE, .avisoS{
     display: none;
     background-color: red;
+    color: white;
+    padding: 5px 15px;
+    border-radius: .5em;
 }
 
 .campoContainer{
@@ -60,9 +64,39 @@ label{
     width: 70%;
     display: flex;
     float: left;
+    color: red;
+    font-size: 20px;
+    font-weight: 900;
 }
 input[type=text],
 input[type=password]{
     height: 25%;
     width: 70%;
+    border: solid .5px gray;
+    border-radius: .5em;
+    padding-left: 15px;
+}
+input::placeholder{
+    color: rgb(185, 185, 185);
+    font-size: 16px;
+}
+input[type=text]:focus,
+input[type=password]:focus{
+    outline: none;
+    border: solid 2px red;
+}
+input[type=submit]{
+    height: 40%;
+    width: 50%;
+    border: solid .5px red;
+    border-radius: .5em;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    transition: .3s;
+}
+input[type=submit]:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
 }
