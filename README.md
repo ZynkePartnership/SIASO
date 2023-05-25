@@ -69,17 +69,17 @@
     <tr>
       <td> 18/05 </td>
       <td> Estruturação básica </td>
-      <td></td>
+      <td> <img/> </td>
     </tr>
     <tr>
       <td> 19/05 </td>
       <td> Funcionalidades JavaScript </td>
-      <td></td>
+      <td> <img/> </td>
     </tr>
     <tr>
       <td> 25/05 </td>
       <td> Estilização básica </td>
-      <td></td>
+      <td> <img/> </td>
     </tr>
   </tbody>
 </table>
