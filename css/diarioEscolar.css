@@ -32,21 +32,23 @@ article {
     width: 20%;
     height: 100%;
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 #diarioEscolar.show{
-    height: 15%;
+    align-self: flex-start;
     width: 100%;
-    flex-direction: row;
-
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #diarioEscolar ul{
     height: 60%;
     width: 100%;
     list-style: none;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
