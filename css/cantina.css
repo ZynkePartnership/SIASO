@@ -33,6 +33,10 @@ aside{
     background-color: rgb(255, 70, 70);
     color: white;
 }
+.horarios li{
+    width: 100%;
+    text-align: center;
+}
 
 /*-----==ARTICLE==-----*/
 article{
