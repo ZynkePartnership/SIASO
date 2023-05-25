@@ -139,7 +139,52 @@
 
 <h2 id="status-do-projeto"> Status do Projeto </h2>
 <p align="center">
-  <img src="https://img.shields.io/badge/-DESENVOLVIMENTO-yellow?style=for-the-badge" align="center" alt="Projeto em Desenvolvimento"/>
+  <img src="https://img.shields.io/badge/Project-DOING-yellow?style=for-the-badge" align="center" alt="Projeto em Desenvolvimento"/>
 </p>
 <p> Projeto está em Desenvolvimento </p>
 <p> O seguimento do projeto se dará pela resposa a ser obtida dia 25/05 </p>
+
+--
+
+<h2 id="#issues"> Issues </h2>
+<ul>
+  <li> Formas de Contato </li>
+  <li>
+    Email:
+    <ul>
+      <li> [LoriaLawrenceZ] Lorenzo O. Zimbres: lorenzozimbresfilmmaker@gmail.com</li>
+      <li> [GPaiva] Gabriel Paiva: ___@___ </li>
+      <li> [TheuZCoder] Matheus R. Silva: matheusrdsilva1@gmail.com </li>
+    </ul>
+  </li>
+  
+  <li>
+    Discord:
+    <ul>
+      <li> Server: ____ </li>
+    </ul>
+  </li>
+</ul>
+<p> Sinta-se livre para entrar em contato com a nossa equipe.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
