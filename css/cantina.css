@@ -33,8 +33,7 @@ aside{
     background-color: rgb(255, 70, 70);
     color: white;
 }
-.horarios ul,
-.horarios ul li{
+li{
     width: 100%;
 }
 
