@@ -9,7 +9,7 @@
 /*-----==Article==-----*/
 article{
     width: 45%;
-    background-color: white;
+    background-color: rgb(255, 231, 231);
     align-self: flex-start;
 }
 
@@ -22,6 +22,7 @@ section{
 }
 
 .cabecalho{
+    background-color: white;
     width: 90%;
     display: flex;
     align-items: center;
@@ -58,6 +59,7 @@ aside{
     width: 45%;
     background-color: white;
     border: solid 0.2px #dbdbdb;
+    background-color: rgb(255, 231, 231);
 }
 #regras{
     display: flex;
