@@ -11,7 +11,7 @@
 
 /*-----==ASIDE==-----*/
 aside{
-    height: 99%;
+    height: 76%;
     width: 24%;
     display: flex;
     align-items: center;
@@ -22,7 +22,7 @@ aside{
 }
 
 .horarios{
-    width: 90%;
+    width: 40%;
     height: 80%;
     font-size: 30px;
     list-style: none;
@@ -31,7 +31,7 @@ aside{
 
 /*-----==ARTICLE==-----*/
 article{
-    width: 75%;
+    width: 70%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -42,13 +42,19 @@ article{
 /*Section Almoço*/
 .almoco{
     width: 99%;
-    height: 59%;
+    height: 45%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     background-color: rgb(255, 255, 255);
-    border:solid 0.2px #dbdbdb;
+}
+.marcearia{
+    width: 99%;
+    height: 59%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .title{
@@ -65,12 +71,14 @@ article{
     flex-wrap: wrap;
 }
 .comida{
-    height: 100%;
-    width: 69%;
+    height: 90%;
+    width: 40%;
+    border:solid 0.2px #dbdbdb;
 }
 .sobremesa{
-    height: 100%;
-    width: 29%;
+    height: 90%;
+    width: 40%;
+    border:solid 0.2px #dbdbdb;
 }
 .comida,
 .sobremesa{
@@ -92,16 +100,17 @@ article{
     height: 90%;
     display: flex;
     justify-content: center;
+    font-size: 16px;
 }
 
 /*Section Salgados; Bebidas*/
 .salgados, .bebidas{
-    width: 49%;
-    height: 39%;
+    height: 90%;
+    width: 40%;
     display: flex;
-    align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
     background-color: rgb(255, 255, 255);
     border:solid 0.2px #dbdbdb;
 }
@@ -114,6 +123,24 @@ article{
     justify-content: center;
     text-align: center;
 }
+.titlesalgado {
+    height: 15%;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+}
+.titlebebiba{
+    height: 15%;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+}
 
 .listaContainer{
     height: 80%;
@@ -121,19 +148,21 @@ article{
 }
 .listaSalgados,
 .listaBebidas{
-    height: 100%;
+    height: 70%;
     list-style: none;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    font-size: 16px;
 }
 .listaSalgados li,
 .listaBebidas li{
     display: flex;
     justify-content: space-between;
+    font-size: 16px;
 }
 
 .salgadoEscolhido,
 .bebidaEscolhida{
-    font-size: 24px;
+    background-color: red;
 }
