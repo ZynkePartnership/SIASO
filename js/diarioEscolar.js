@@ -21,6 +21,9 @@ linkGen.forEach(link => {
         // Obter o id do link
         const telaEscolhida = link.getAttribute('href');
 
+        if (telaEscolhida == document.getElementById("diarioEscolar")) {
+            document.querySelector(".diarioEscolar ul").classList.add("show");
+        }
         // Remover a classe "show" de todos os elementos section
         const sections = document.querySelectorAll('section');
         sections.forEach(section => {
