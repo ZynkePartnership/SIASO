@@ -12,7 +12,8 @@ header{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: rgb(255, 255, 255);
+    /*background-color: rgb(255, 255, 255);*/
+    background-color: rgb(255, 0, 0);
 }
 
 .logo{
@@ -51,12 +52,15 @@ nav{
 }
 .nav-content li a{
     text-decoration: none;
-    color: black;
+    /*color: black*/
+    color: white;
+    font-size: 18px;
 }
 
 /*-----Body-----*/
 main{
-    background-color: rgb(255, 230, 230);
+    /*background-color: rgb(255, 230, 230);*/
+    background-color: rgb(100, 0, 0);
     height: 84vh;
     display: flex;
     align-items: center;

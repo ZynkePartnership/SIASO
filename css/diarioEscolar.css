@@ -5,7 +5,7 @@ article {
     flex-wrap: wrap;
     width: 90%;
     height: 85%;
-    background-color: white;
+    background-color: rgb(255, 231, 231);
     border:solid 0.2px #dbdbdb;
 }
 
@@ -25,11 +25,11 @@ article {
     justify-content: center;
 }
 
-#secretaria.show{
+#diarioEscolar.show{
     height: 15%;
 
 }
-#secretaria{
+#diarioEscolar{
     align-self: flex-start;
     width: 90%;
     height: 15%;
@@ -37,7 +37,7 @@ article {
     align-items: center;
     justify-content: center;
 }
-#secretaria ul{
+#diarioEscolar ul{
     height: 100%;
     width: 100%;
     list-style: none;
