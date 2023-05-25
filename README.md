@@ -212,7 +212,12 @@
 
 <h2 id="referencias"> Referências </h2>
 
+* Guias
+    - [Shyoutarou README-Model](https://github.com/shyoutarou/README-Model/blob/master/README.md?plain=1)
 
+* Badges
+    - [Shields](https://shields.io/)
+    - [Template Badges](https://github.com/iuricode/readme-template/blob/main/badges/badges.md)
 
 <h2 id="licenca"> Licença </h2>
 <img src="https://img.shields.io/badge/Estamos Resolvendo-orange?style=for-the-badge" align="center" alt="Licença"/>
