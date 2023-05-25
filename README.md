@@ -37,4 +37,4 @@
 <h2> Descrição </h2>
 <p> Web Aplicação desenvolvida em HTML5, CSS3 e JavaScript, contendo 5 páginas, cada uma com um tipo de funcionalidade que tende a ser única. <p>
 <h3> 🎯 Motivo </h3>
-<p> Site feito para atender as necessidades de uma atividade, na qual aplicamos funcionalidades JavaScript ao site para que pudesse haver ao menos uma mínima interação do usuário para com a Web Aplicação </p>
+<p> Na Instituição Senai Luiz Varga, localizada em Limeira, o professor Eduardo Costa solicitou a realização de uma aplicação que atendesse os requisitos passados por ele. Nós, a equipe Ultron, nos responsabilizamos por realizar portanto uma aplicação web sem, a princípio, conexão com banco de dados, utilizando apenas os conhecimentos obtidos pela educação dada a nós pela instituição. </p>
