@@ -22,7 +22,9 @@ section{
     border-collapse: collapse;
     border-radius: 10px;
 }
-
+.listaB {
+    margin-bottom: 5%;
+}
 .cabecalho{
     background-color: white;
     width: 90%;
@@ -31,7 +33,6 @@ section{
     justify-content: space-between;
     cursor: pointer;
     margin-bottom: 5px;
-    box-shadow: 3px 3px 3px #dbdbdb;
     -webkit-user-select: none;
     user-select: none;
 }
