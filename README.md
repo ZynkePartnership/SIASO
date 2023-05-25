@@ -18,7 +18,7 @@
 <p align="center">   
   <a href="#index"> Índice </a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;  
   <a href="#nome-do-projeto"> Nome do Projeto </a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;          
-  <a href="#descrição"> Descrição e motivação </a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;         
+  <a href="#descricao"> Descrição e motivação </a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;         
   <a href="#badges"> Badges </a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;        
   <a href="#visuais-e-telas"> Visuais e Telas </a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;        
   <a href="#tecnologias">Tecnologias </a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;       
@@ -31,10 +31,115 @@
   <a href="#licença"> Licença </a>    
 </p>
 
+--
+
 <h2 id="nome-do-projeto"> Nome do Projeto </h2>
 <h3> SIASO - Situação de Aprendizagem Sistemas Operacionais </h3>
 
-<h2> Descrição </h2>
+--
+
+<h2 id="#descricao"> Descrição </h2>
 <p> Web Aplicação desenvolvida em HTML5, CSS3 e JavaScript, contendo 5 páginas, cada uma com um tipo de funcionalidade que tende a ser única. <p>
 <h3> 🎯 Motivo </h3>
 <p> Na Instituição Senai Luiz Varga, localizada em Limeira, o professor Eduardo Costa solicitou a realização de uma aplicação que atendesse os requisitos passados por ele. Nós, a equipe Ultron, nos responsabilizamos por realizar portanto uma aplicação web sem, a princípio, conexão com banco de dados, utilizando apenas os conhecimentos obtidos pela educação dada a nós pela instituição. </p>
+
+--
+
+<h2 id="badges"> Badges </h2>
+
+--
+
+<h2 id="#visuais-e-telas"> Visuais e Telas </h2>
+<p> Tela Biblioteca: </p>
+<img alt="Tela Bilioteca" title="TelaBiblioteca1" style="object-fit: cover; height: 250px;" src="readMeContent/TelaBiblioteca1.png" align="center"/>
+<h3> GIF's </h3>
+
+--
+
+<h2 id="tecnologias"> Tecnologias </h2>
+<table>
+  <thead>
+    <tr>
+      <th> Dia </th>
+      <th> Descrição </th>
+      <th> Tecnologias </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> 18/05 </td>
+      <td> Estruturação básica </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td> 19/05 </td>
+      <td> Funcionalidades JavaScript </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td> 25/05 </td>
+      <td> Estilização básica </td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3> Funcionalidades </h3>
+<ul>
+  <li> [x] Estrutura HTML </li>
+  <li> [x] Estilização básica para funcionamento do Javascript </li>
+  <li> [ ] Conexão com banco de dados </li>
+  <li> [ ] Responsividade </li>
+  <li>
+    [ ] Landing Page
+    <ul>
+      <li> [x] Impedir usuário de acessar links sem estar Logado</li>
+      <li> [x] Verificação de e-mail e senha </li>
+      <li> [ ] Salvar Login </li>
+    </ul>
+  </li>
+  <li>
+    [x] Secretaria
+    <ul>
+      <li> [x] Efeito hover dos Cards</li>
+      <li> [x] Expansão/Encolhimento dos Cards </li>
+    </ul>
+  </li>
+  <li>
+    [ ] Diário Escolar
+    <ul>
+      <li> [x] Troca de Conteúdo </li>
+      <li> [x] Valores Randômicos à tabela </li>
+      <li> [ ] Matemática correta para Conteúdo das Tabelas/Contato </li>
+    </ul>
+  </li>
+  <li>
+    [ ] Biblioteca
+    <ul>
+      <li> [x] Menu Expansível </li>
+      <li> [x] Opção X recolhe quando opção Y é expandida </li>
+      <li> [ ] Valores randômicos de aluguel de livros </li>
+    </ul>
+  </li>
+  <li>
+    [x] Cantina
+    <ul>
+      <li> [x] Escolha randômica dos alimentos </li>
+      <li> [x] Escolha randômica do alimento barato do dia </li>
+    </ul>
+  </li>
+</ul>
+
+--
+
+<h2 id="uso"> Uso </h2>
+<p> Acesse a <a href="">documentação</a> para informações mais detalhadas quanto para com a Web Aplicação </p>
+
+--
+
+<h2 id="status-do-projeto"> Status do Projeto </h2>
+<p align="center">
+  <img src="https://img.shields.io/badge/-DESENVOLVIMENTO-yellow?style=for-the-badge" align="center" alt="Projeto em Desenvolvimento"/>
+</p>
+<p> Projeto está em Desenvolvimento </p>
+<p> O seguimento do projeto se dará pela resposa a ser obtida dia 25/05 </p>
