@@ -29,31 +29,20 @@ article {
 
 #diarioEscolar{
     align-self: flex-start;
-    width: 20%;
-    height: 100%;
+    width: 100%;
+    height: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#diarioEscolar.show{
-    align-self: flex-start;
-    width: 100%;
-    height: 15%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 #diarioEscolar ul{
-    height: 60%;
+    height: 100%;
     width: 100%;
     list-style: none;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-}
-#diarioEscolar ul.show{
-    flex-direction: row;
 }
 
 .container-tb{
