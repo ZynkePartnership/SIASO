@@ -20,7 +20,8 @@ section{
     flex-wrap: wrap;
     border: solid 0.2px #dbdbdb;
     border-collapse: collapse;
-    border-radius: 10px;
+    border-radius: .5em;
+    box-shadow: 2px 2px 10px rgb(104, 104, 104);
 }
 .listaB {
     margin-bottom: 5%;
@@ -35,6 +36,7 @@ section{
     margin-bottom: 5px;
     -webkit-user-select: none;
     user-select: none;
+    font-size: 16px;
 }
 
 .lista{
@@ -63,9 +65,13 @@ aside{
     background-color: white;
     border: solid 0.2px #dbdbdb;
     background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+    box-shadow: 2px 2px 15px rgb(104, 104, 104);
 }
 #regras{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 28px;
+    color: red;
 }
