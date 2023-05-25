@@ -8,7 +8,7 @@ const listaBebidas = document.querySelector(".listaBebidas");
 window.usuarioAtual;
 
 //Criando Arrays de comida
-const horarios = ["6:30 - 7:00", "9:20 - 10:30", "12:30 - 13:30", "14:20 - 15:35", "17:00 - 17:30", "18:30 - 19:00", "20:30 - 21:30"];
+const horarios = [" 06:30 - 07:00", "09:20 - 10:30", "12:30 - 13:30", "14:20 - 15:35", "17:00 - 17:30", "18:30 - 19:00", "20:30 - 21:30"];
 const padrao = ["Arroz e Feijão", "Feijoada", "Arroz à Grega", "Arroz à Piamontese"];
 const mistura = ["Omelete", "Ovo Frito", "Ovo Cozido", "Linguiça", "Carne Moída", "polenta", "Polenta Frita", "Farofa", "Lasanha", "Purê de Batata", "Batata Cozida", "Batata Frita", "Banana Empana", "Tilápia Assada", "Tilápia Frita", "Atum", "Frango Assado", "Frango Frito", "Frango Empanado"];
 const sobremesa = ["Pudim", "Banana", "Maça", "Bolo", "Mousse de Limão", "Mouse de Maracujá", "Mousse de chocolate", "Bolacha", "Picolé", "Manga", "Salada de Fruta"];
@@ -45,6 +45,7 @@ function escolhendoAlimento() {
 
     //Concatenando comida padrão e Mistura
     const comidaEscolhida = padraoDoDia.concat("; Mistura: ", misturaDoDia);
+   
 
     salgados.forEach((salgado) => {
         const li = document.createElement("li");
