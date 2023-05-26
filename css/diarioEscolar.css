@@ -11,6 +11,16 @@ article {
     box-shadow: 5px 5px 30px rgb(200, 200, 200);
 }
 
+.link{
+    transition: .3s;
+    font-size: 24px;
+    color: red;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+}
+
 #notas,
 #presenca,
 #contato {
