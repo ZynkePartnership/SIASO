@@ -131,7 +131,7 @@
 <h2 id="uso"> Uso </h2>
 <p> Acesse a <a href="readMeContent/MANUAL_DO_SIASO.docx">documentação</a> para informações mais detalhadas quanto para com a Web Aplicação. </p>
 <p> <a href="readMeContent/crachaFinal.docx"> Crachás </a> </p>
-<p> <a href="readMeContent/cartaoContratacao.docx"> Carta de Contratação </a> </p>
+<p> <a href="readMeContent/cartaContratacao.docx"> Carta de Contratação </a> </p>
 
 
 
