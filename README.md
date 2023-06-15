@@ -130,6 +130,7 @@
 
 <h2 id="uso"> Uso </h2>
 <p> Acesse a <a href="">documentação</a> para informações mais detalhadas quanto para com a Web Aplicação. </p>
+<p> <a href="readMeContent/crachaFinal.docx"> Crachás </p>
 
 
 
