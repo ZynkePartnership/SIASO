@@ -59,7 +59,7 @@ form.addEventListener("submit", function (e) {
       divAlert.parentNode.removeChild(divAlert);
     }, 2000);
 
-    window.location.href="html/secretaria.html"
+    window.location.href="../html/secretaria.html"
   }
 
 });
