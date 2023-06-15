@@ -46,8 +46,21 @@
 
 
 <h2 id="visuais-e-telas"> Visuais e Telas </h2>
+<p> Tela Inicial: </p>
+<img alt="Tela Inicial" title="TelaInicial" style="object-fit: cover; height: 250px;" src="readMeContent/homeExemplo.png" align="center"/>
+
+<p> Tela Secretaria: </p>
+<img alt="Tela Secretaria" title="TelaSecretaria" style="object-fit: cover; height: 250px;" src="readMeContent/secretariaExemplo.png" align="center"/>
+
+<p> Tela Diário Escolar: </p>
+<img alt="Tela Diário Escolar" title="TelaDiarioEscolar" style="object-fit: cover; height: 250px;" src="readMeContent/diarioEscolarExemplo.png" align="center"/>
+
 <p> Tela Biblioteca: </p>
-<img alt="Tela Bilioteca" title="TelaBiblioteca1" style="object-fit: cover; height: 250px;" src="readMeContent/bibliotecaExemplo.png" align="center"/>
+<img alt="Tela Bilioteca" title="TelaBiblioteca" style="object-fit: cover; height: 250px;" src="readMeContent/bibliotecaExemplo.png" align="center"/>
+
+<p> Tela Cantina: </p>
+<img alt="Tela Cantina" title="TelaCantina" style="object-fit: cover; height: 250px;" src="readMeContent/cantinaExemplo.png" align="center"/>
+
 <h3> GIF's </h3>
 
 
