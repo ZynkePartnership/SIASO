@@ -107,3 +107,17 @@ input[type=submit]:hover{
     background-color: rgb(255, 0, 0);
     color: rgb(255, 255, 255);
 }
+
+.alert {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: red;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    opacity: 100%;
+    font-size: 18px;
+  }
