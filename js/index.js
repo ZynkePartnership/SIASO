@@ -43,10 +43,26 @@ form.addEventListener("submit", function (e) {
     };
     formulario.push(dadosFormulario);
     usuarioAtual = dadosFormulario;
-    alert("Você fez login com o usuário: "+ usuario);
-    window.location.href = "html/secretaria.html";
+    
+    var mensagem = "Você fez login com o usuário: " + usuario;
+
+    // Cria um elemento de div para exibir a mensagem
+    var divAlert = document.createElement("div");
+    divAlert.className = "alert";
+    divAlert.textContent = mensagem;
+
+    // Adiciona a div de mensagem ao corpo do documento
+    document.body.appendChild(divAlert);
+
+    // Define um tempo limite para remover a div de mensagem após 2 segundos
+    setTimeout(function () {
+      divAlert.parentNode.removeChild(divAlert);
+    }, 2000);
+
+    window.location.href="html/secretaria2.html"
   }
-})
+
+});
 
 function verifyCampoUser(){
   var usuario = document.getElementById("user").value;
@@ -82,5 +98,17 @@ function verifyCampoPassword(){
 
 function bloqueio(event){
   event.preventDefault();
-  alert("As páginas só poderão ser acessadas após o Login!");
-}
+  var mensagem = "As páginas só podem ser acessadas após o login"
+    // Cria um elemento de div para exibir a mensagem
+    var divAlert = document.createElement("div");
+    divAlert.className = "alert";
+    divAlert.textContent = mensagem;
+
+    // Adiciona a div de mensagem ao corpo do documento
+    document.body.appendChild(divAlert);
+
+    // Define um tempo limite para remover a div de mensagem após 2 segundos
+    setTimeout(function () {
+      divAlert.parentNode.removeChild(divAlert);
+    }, 2000);
+  }
