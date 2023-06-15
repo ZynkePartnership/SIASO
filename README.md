@@ -47,7 +47,7 @@
 
 <h2 id="visuais-e-telas"> Visuais e Telas </h2>
 <p> Tela Biblioteca: </p>
-<img alt="Tela Bilioteca" title="TelaBiblioteca1" style="object-fit: cover; height: 250px;" src="readMeContent/TelaBiblioteca1.png" align="center"/>
+<img alt="Tela Bilioteca" title="TelaBiblioteca1" style="object-fit: cover; height: 250px;" src="readMeContent/bibliotecaExemplo.png" align="center"/>
 <h3> GIF's </h3>
 
 
